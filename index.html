@@ -1,40 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Department of Operations Control</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Operations Control - DOC Lore</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0d0d0d;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00ffaa;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ffcc;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #00ffcc;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+            border-bottom: 1px solid #00ffcc;
+        }
+
+        nav a {
+            margin: 0 15px;
+            padding: 15px 0;
+            display: inline-block;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #00ffcc;
+            border-bottom: 1px solid #00ffcc;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            background-color: #111;
+            color: #888;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #00ffcc;
+        }
+
+        /* Entity Card */
+        .entity-card {
+            background-color: #1a1a1a;
+            border: 1px solid #00ffcc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .entity-card h3 {
+            margin-top: 0;
+            color: #00ffcc;
+        }
+
+        /* Timeline list */
+        .timeline {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .timeline li {
+            background-color: #111;
+            border-left: 3px solid #00ffcc;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Department of Operations Control</h1>
-    <p>Founded by Dezmond Franke. Protecting the multiverse since Year 132.</p>
-    <nav>
-      <a href="classes.html">Entity Classes</a>
-      <a href="lore.html">DOC Lore</a>
-    </nav>
-  </header>
 
-  <main>
-    <section>
-      <h2>Welcome to the DOC Archive</h2>
-      <p>The DOC is a multiversal containment organization tasked with identifying, isolating, and neutralizing anomalies across dimensions.</p>
+<header>
+    <h1>Department of Operations Control (DOC)</h1>
+</header>
+
+<nav>
+    <a href="#timeline">Timeline</a>
+    <a href="#divisions">Divisions</a>
+    <a href="#entities">Entities</a>
+    <a href="#protocols">Protocols</a>
+</nav>
+
+<main>
+
+    <!-- Timeline Section -->
+    <section id="timeline">
+        <h2>Timeline & History</h2>
+        <ul class="timeline">
+            <li><strong>132:</strong> DOC Founded by Dez to combat paranormal entities.</li>
+            <li><strong>232:</strong> Dez dies and vanishes, Board assumes control.</li>
+            <li><strong>242:</strong> Dez resurrected with anomalous powers.</li>
+            <li><strong>413:</strong> Interdimensional expansion; bases across all known realities.</li>
+            <li><strong>415:</strong> SCP Facility-422 Incident; DOC captures facility.</li>
+            <li><strong>416:</strong> Alliance formed with the O5 Council.</li>
+            <li><strong>417:</strong> PA-001 Voidsmelter contained.</li>
+            <li><strong>418:</strong> OCA-001 Virex contained.</li>
+        </ul>
     </section>
 
-    <section>
-      <h2>Divisions</h2>
-      <ul>
-        <li><strong>AOO</strong> – Agency of Operations</li>
-        <li><strong>PA</strong> – Paranormal Agency</li>
-        <li><strong>OCA</strong> – Organic Capture Agency</li>
-        <li><strong>MA</strong> – Medical Agency</li>
-      </ul>
+    <!-- Divisions Section -->
+    <section id="divisions">
+        <h2>Divisions</h2>
+        <ul>
+            <li><strong>Agency of Operations (AOO):</strong> Masters of global and interdimensional coordination.</li>
+            <li><strong>Paranormal Agency (PA):</strong> Specialists in supernatural anomalies.</li>
+            <li><strong>Organic Capture Agency (OCA):</strong> Hunters and neutralizers of organic threats.</li>
+            <li><strong>Medical Agency (MA):</strong> Research, healing, and morally ambiguous experimentation.</li>
+        </ul>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2025 Dezmond Franke. All rights reserved.</p>
-  </footer>
+    <!-- Entities Section -->
+    <section id="entities">
+        <h2>Entities</h2>
+
+        <div class="entity-card">
+            <h3>PA-001: Voidsmelter</h3>
+            <p><strong>Classification:</strong> Omega-Level Cosmic Anomaly</p>
+            <p><strong>Threat Level:</strong> Absolute / Multiversal</p>
+            <p><strong>Description:</strong> A sentient, mechanical-cosmic organism born from the death of thousands of stars, absorbing planets, light, radiation, and time itself.</p>
+        </div>
+
+        <div class="entity-card">
+            <h3>OCA-001: Virex</h3>
+            <p><strong>Classification:</strong> Omega-Level Organic Anomaly</p>
+            <p><strong>Threat Level:</strong> Extreme / Multiversal Containment Required</p>
+            <p><strong>Description:</strong> A viscous black ink-like entity with glowing green parasites and tentacles. Controls "The Maw," an ink pocket dimension, and uses psychological warfare to subdue prey.</p>
+        </div>
+
+    </section>
+
+    <!-- Protocols Section -->
+    <section id="protocols">
+        <h2>Protocols</h2>
+        <p><strong>Neutralization Directive (ND-001):</strong> All contained anomalies may be terminated if containment fails or poses a multiversal threat. Procedures are executed by OCA, PA, and MA under strict authorization from Dez or the Board.</p>
+        <p>After containment, all entities are informed: <em>"You are contained. You can be killed."</em> Reactions are logged for study.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 Dezmond Franke. All rights reserved. The DOC Universe and related content are the property of Dezmond Franke. Unauthorized use is prohibited.</p>
+</footer>
+
 </body>
 </html>
